@@ -2,11 +2,89 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="simposio.Detalle"
-             Title="Detalle">
-    <VerticalStackLayout>
-        <Label 
-            Text="SImposio !"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="INICIO">
+    <ScrollView>
+        <StackLayout Padding="20">
+
+            <Label Text="Noveno Simposio Internacional De Ingenieria De Sistemas - Hacia Una Transformacion Digital Sostenible"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black" /> 
+            <Image Source="banner.png"> </Image> 
+
+            <!-- OBJETIVOS -->
+            <Label Text="OBJETIVOS"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black" />
+            <Label Text="• Reflexionar sobre avance de la Ingeniería de Sistemas, tecnología de vanguardia, educación en ingeniería, investigación, práctica e innovación."
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Reflexionar acerca de los retos y oportunidades en el área de gestión de datos y transformación digital mediante la aplicación de la inteligencia artificial (IA) en los diferentes sectores organizacionales."
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Analizar la igualdad de derechos, oportunidades y espacios de las mujeres en el ámbito académico y profesional desde la ingeniería."
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Fortalecer el currículo del programa de ingeniería de sistemas mediante la mirada holística de un grupo interdisciplinario de profesionales."
+                   FontSize="16"
+                   TextColor="Black" />
+
+            <Image Source="conferencistas.png"> </Image>
+            
+            <!-- POBLACION -->
+            <Label Text="POBLACIÓN"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="0,20,0,0" />
+            <Label Text="• Estudiantes de los programas de ingeniería de sistemas, ingeniería informática, ingeniería del software."
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Docentes vinculados al programa de ingeniería de sistemas y afines."
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Investigadores en el área de las ingenierías."
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Profesionales en ciencias básicas, ingenierías y afines."
+                   FontSize="16"
+                   TextColor="Black" />
+
+            <!-- EJES TEMÁTICOS -->
+            <Label Text="EJES TEMÁTICOS"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   Margin="0,20,0,0" />
+            <Label Text="• Ciencias de la Computación, Ingeniería Informática, Ciencia de datos e Ingeniería del Software"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Ciberseguridad y Análisis Forense Digital"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Ética y Sociedad"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Educación en Ingeniería"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Telecomunicaciones, IoT e Industria 4.0"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Mujeres y Diversidad en la Ingeniería"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Robótica y Sistemas de Automatización"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• Electrónica Industrial"
+                   FontSize="16"
+                   TextColor="Black" />
+            <Label Text="• E-Mobility"
+                   FontSize="16"
+                   TextColor="Black" />
+
+        </StackLayout>
+    </ScrollView>
 </ContentPage>
