@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="simposio.Pages.CronogramaPage"
+             Title="Cronograma">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+
+            <!-- Sección para el 24 de octubre -->
+            <Label Text="Cronograma - 24 de Octubre" 
+                   FontAttributes="Bold" 
+                   FontSize="Large" 
+                   HorizontalOptions="Center" 
+                   Margin="0,10"/>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="08:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Registro al evento / Actos protocolarios" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="09:30 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Intervención - Palabras de la Rectora y/o Vicerrectora Académica, Vicerrectoría de Extensión" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="10:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Dr. Roberto Giordano - Los proyectos universitarios de desarrollo tecnológico como promotores de micro-ecosistemas de innovación local" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="11:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Coffee break" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="11:15 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Dr. Jesús Domínguez Gutú - Sk'op K'ap, una aplicación móvil para la comunicación con personas con discapacidad auditiva (Virtual)" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="11:30 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Gilberto Abelino Trejo - 4RITM3TIC4: Una aplicación para la gestión de contenido de los temas de Aritmética en el curso de inducción para alumnos de nuevo ingreso de la Universidad Tecnológica de la Selva (virtual)" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="11:45 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Jorge Cordova - Revolución Tecnológica en el Agro: Inteligencia Artificial e Internet de las Cosas para la Agricultura Inteligente (Presencial)" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+            
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="12:00 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="FREE LUNCH" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="02:00 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Exposición permanente de proyectos de semillero de investigación" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="02:30 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Dra. Yesenia del Rosario Vásquez Valencia - Mujeres y Diversidad en la Ingeniería" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="03:30 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Yesid Lázaro - Taller 1: Tu primer App en Android" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="03:30 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Cristian Cuadrado - Taller 2: Creación de un pequeño proyecto usando metodologías ágiles. Enfoque en arquitectura de software y pruebas unitarias" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="03:30 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Chair Ubuntu - Taller 1: Taller 3: Ubuntu Taller" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+
+            <!-- Separador de fechas -->
+            <BoxView HeightRequest="1" Color="Gray" Margin="0,20"/>
+
+            <!-- Sección para el 25 de octubre -->
+            <Label Text="Cronograma - 25 de Octubre" 
+                   FontAttributes="Bold" 
+                   FontSize="Large" 
+                   HorizontalOptions="Center" 
+                   Margin="0,10"/>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="08:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Exposición de proyectos semilleros de investigación, proyectos de aula, proyectos integradores" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="08:30 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Dr. Héctor Jesús Ponce Castillo - Inteligencia Artificial en mercadotecnia digital (Virtual)" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="09:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Dra. Guadalupe Pascal - Transversalización de la perspectiva de géneros en la formación de Ingenierías" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="09:30 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Dr. Emmanuel Gordillo Espinoza - THerramientas de Inteligencia Artificial en el aula (Virtual)" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="09:45 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Coffee break" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="10:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Falconeris Marimón Caneda - IA en la transformación digital sostenible" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="11:00 AM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Carlos Martínez, Ing. Miguel Velandia - Gobernanza del dato" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="12:00 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="FREE LUNCH" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="02:00 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Exposiciones experiencias significativas de estudiantes y practicantes" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="03:00 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Ing. Andrés Prieto - Proyecto Lyra. ¿Cómo pasar del pensar en IA a introducirla en tu sistema operativo?(Virtual)" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="5" Padding="10" BorderColor="Gray" CornerRadius="8">
+                <VerticalStackLayout>
+                    <Label Text="03:30 PM" FontAttributes="Bold" FontSize="Medium"/>
+                    <Label Text="Director de Recursos Tecnológicos para el Aprendizaje - Experiencias inmersivas" FontSize="Small"/>
+                    <Label Text="AUDITORIO BLOQUE G3 CECAR" FontSize="Small" TextColor="Gray"/>
+                </VerticalStackLayout>
+            </Frame>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
