@@ -17,4 +17,9 @@ public partial class Maestro : ContentPage
     {
         goToPage(new Pages.NewPage1());
     }
+
+    private void GotoCronogramaPage(object sender, EventArgs e)
+    {
+        goToPage(new Pages.CronogramaPage());
+    }
 }

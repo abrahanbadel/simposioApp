@@ -6,5 +6,8 @@
     <VerticalStackLayout>
         <Button Text="Innovación"
                 Clicked="GotoInnovationPage" WidthRequest="250" Margin="0,20"/>
+
+        <Button Text="Cronograma"
+                Clicked="GotoCronogramaPage" WidthRequest="250" Margin="0,20"/>
     </VerticalStackLayout>
 </ContentPage>
