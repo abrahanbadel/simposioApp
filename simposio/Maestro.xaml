@@ -4,9 +4,7 @@
              x:Class="simposio.Maestro"
              Title="Maestro">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Button Text="Innovación"
+                Clicked="GotoInnovationPage" WidthRequest="250" Margin="0,20"/>
     </VerticalStackLayout>
 </ContentPage>

@@ -12,4 +12,9 @@ public partial class Maestro : ContentPage
         App.FlyoutPage.Detail.Navigation.PushAsync(page);
         App.FlyoutPage.IsPresented = false;  // Cierra el menú Flyout después de la navegación
     }
+
+    private void GotoInnovationPage(object sender, EventArgs e)
+    {
+        goToPage(new Pages.NewPage1());
+    }
 }
