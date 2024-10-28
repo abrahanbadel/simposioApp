@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="simposio.Pages.NewPage1"
+             Title="Innovación y Emprendimiento"
+             BackgroundColor="#001427">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Grid RowDefinitions="*,*,*">
+                
+                <Grid BackgroundColor="#fb8500" Grid.Row="0" HeightRequest="100">
+                    <Image Source="bombilla.png" HeightRequest="300"/>
+                </Grid>
+                
+                <Grid Grid.Row="1" RowDefinitions="*,*" HorizontalOptions="Center" Margin="0,40,0,40">
+                    <Label Text="PROYECTOS INVITADOS" Grid.Row="0" 
+                           FontSize="20" FontAttributes="Bold"/>
+                    
+                    <Label Text="Ingeniería de Sistemas" Grid.Row="1"
+                           FontSize="12" HorizontalOptions="Center" TextColor="#219ebc"
+                           FontAttributes="Bold"/>
+                </Grid>
+                
+                <!--  Targetas  -->
+                <Grid Grid.Row="2" RowDefinitions="*,*,*">
+                    
+                    <!--  Targeta1  -->
+                    <Grid Grid.Row="0">
+                        <Label Text="CitaClick" HorizontalOptions="Center" FontSize="18" TextColor="#ffb703"
+                               FontAttributes="Bold"/>
+                        <Grid BackgroundColor="#219ebc" Margin="50,50,50,50" HeightRequest="500" RowDefinitions="6*,*,*">
+                            <Image Source="citaclick.jpg" HeightRequest="300"
+                                   Grid.Row="0"/>
+                            <Label Text="Ofrece el servicio de gestión de reservas e inventario para pequeñas y medianas empresas que deseen automatizar sus procesos."
+                                   Grid.Row="1" TextColor="#000000" FontAttributes="Bold" Padding="20,0,0,0"/>
+                            <Label Text="Equipo: Vicente Vergara, Jose Angel Diaz &amp; Lino Robechi"
+                                   Grid.Row="2" TextColor="#8ecae6" Padding="20,0,10,0"/>
+                        </Grid>
+                    </Grid>
+                    <!--  Targeta2  -->
+                    <Grid Grid.Row="1">
+                        <Label Text="VibeTel" HorizontalOptions="Center" FontSize="18" TextColor="#ffb703"
+                               FontAttributes="Bold"/>
+                        <Grid BackgroundColor="#219ebc" Margin="50,50,50,50" HeightRequest="500" RowDefinitions="3*,*,*">
+                            <Image Source="vibetel.jpg" HeightRequest="300" WidthRequest="250"
+                                   Grid.Row="0"/>
+                            <Label Text="Es una plataforma web que centraliza la información y reservas de moteles en Sincelejo, ofreciendo a los usuarios una experiencia conveniente y eficiente para encontrar habitaciones de motel."
+                                   Grid.Row="1" TextColor="#000000" FontAttributes="Bold"
+                                   Padding="20,0,0,0"/>
+                            <Label Text="Equipo: Daniel Rivero, Luisa Mercado &amp; Jesus Alvarez"
+                                   Grid.Row="2" TextColor="#8ecae6"
+                                   Padding="20,0,10,0"/>
+                        </Grid>
+                    </Grid>
+                    <!--  Targeta3  -->
+                    <Grid Grid.Row="2">
+                        <Label Text="Animal Therapy" HorizontalOptions="Center" FontSize="18" TextColor="#ffb703"
+                               FontAttributes="Bold"/>
+                        <Grid BackgroundColor="#219ebc" Margin="50,50,50,50" HeightRequest="530" RowDefinitions="7*,*,50,20"
+                              Padding="0,0,0,18">
+                            <Image Source="animal_therapy.jpg" HeightRequest="300"
+                                   Grid.Row="0"/>
+                            <Label Text="La App ofrece servicio de compañamiento de mascotas de apoyo emocional."
+                                   Grid.Row="1" TextColor="#000000" FontAttributes="Bold"
+                                   Padding="15,0,0,0"/>
+                            <Label Text="Equipo:  Chaira Zapa, Daniela Diaz Caro &amp; Estefanía Villalba"
+                                   Grid.Row="2" TextColor="#8ecae6"
+                                    Padding="15,0,10,0"/>
+                            <Label Text="Integrador con psicología"
+                                   Grid.Row="3" TextColor="#8ecae6"
+                                    Padding="15,0,10,0" HorizontalTextAlignment="End"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
