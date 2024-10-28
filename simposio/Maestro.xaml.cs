@@ -12,4 +12,8 @@ public partial class Maestro : ContentPage
         App.FlyoutPage.Detail.Navigation.PushAsync(page);
         App.FlyoutPage.IsPresented = false;  // Cierra el menú Flyout después de la navegación
     }
+    private async void OnNavigateToCronogramaPage(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Pages.CronogramaPage());
+    }
 }

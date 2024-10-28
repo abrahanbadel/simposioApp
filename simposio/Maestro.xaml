@@ -4,9 +4,8 @@
              x:Class="simposio.Maestro"
              Title="Maestro">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Button 
+            Text="Ir a Cronograma"
+            Clicked="OnNavigateToCronogramaPage"/>
     </VerticalStackLayout>
 </ContentPage>
