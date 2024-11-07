@@ -22,4 +22,9 @@ public partial class Maestro : ContentPage
     {
         goToPage(new Pages.CronogramaPage());
     }
+
+    private void OnThemeToggled(object sender, ToggledEventArgs e)
+    {
+        (Application.Current as App).SetTheme(e.Value);
+    }
 }

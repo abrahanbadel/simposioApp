@@ -4,6 +4,9 @@
              x:Class="simposio.Maestro"
              Title="Maestro">
     <VerticalStackLayout>
+        <Label Text="Modo oscuro" VerticalOptions="Center" />
+        <Switch Toggled="OnThemeToggled" />
+
         <Button Text="Innovación"
                 Clicked="GotoInnovationPage" WidthRequest="250" Margin="0,20"/>
 
